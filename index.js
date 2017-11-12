@@ -1,5 +1,5 @@
 // In `index.js`, write a constructor function called `BoardMember` that sets the following properties: `name`, `homeState`, and `training`.
-// 
+//
 // Add following methods to the class:
 // + `veto` — returns `No, I must disagree`
 // + `approve` — returns `You can do that!`
@@ -12,9 +12,5 @@ class BoardMember {
     this.name = name;
     this.homeState = homeState;
     this.training = training;
-  }
-
-  this.veto() {
-    return "No, I must disagree";
   }
 }
